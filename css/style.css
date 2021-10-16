@@ -75,3 +75,13 @@
         font-size: 2vw;
     }
 }
+@media (max-width:750px){
+    #made, #madeby{
+        font-size: 4vw;
+    }
+}
+@media (max-width:500px){
+    #made, #madeby{
+        font-size: 3vw;
+    }
+}
