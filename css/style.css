@@ -16,21 +16,31 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom right, #333, #161616);
+    background: radial-gradient( #333, black);
+}
+#time{
+    color: white;
+    font-family: 'Fira Code';
+    letter-spacing: .5vw;
+    padding-bottom: 35px;
+    border-bottom: 2px solid white;
 }
 #mmddyy{    
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: white;
+    padding: 40px;
+    
+}
+#clock{
     font-size: 11.5vw;
     font-weight: lighter;
     font-family: 'Fira Code', monospace;
     padding-bottom: 100px;
     color: white;
-    animation-name: fadeup;
-    animation-duration: 1s;
-}
-#clock{
-    font-size: 1.8rem;
-    font-family: monospace;
-    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: 0 0 15px white;
 }
 #made{
     position: absolute;
@@ -40,6 +50,7 @@
     font-family: 'Fira Code', monospace;
     font-weight: 900;
     color: white;
+    
     background: transparent;
     padding: 10px;
     padding-bottom: 15px;
@@ -56,6 +67,7 @@
     font-family: 'Fira Code', monospace;
     font-weight: 900;
     color: white;
+    
     background: transparent;
     padding: 10px;
     padding-bottom: 15px;
@@ -67,6 +79,7 @@
 #madeby a{
     font-family: 'Roboto Mono', monospace;
     color: white;
+    
     text-decoration: none;
     border-bottom: 1px solid white;
 }
