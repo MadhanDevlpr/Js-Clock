@@ -36,7 +36,7 @@
     position: absolute;
     right: 2.5%;
     bottom: 2.5%;
-    font-size: 1rem;
+    font-size:1vw;
     font-family: 'Fira Code', monospace;
     font-weight: 900;
     color: white;
@@ -51,8 +51,8 @@
 #madeby{
     position: absolute;
     left: 2.5%;
-    bottom: 10%;
-    font-size: 1rem;
+    bottom: 12.5%;
+    font-size:1vw;
     font-family: 'Fira Code', monospace;
     font-weight: 900;
     color: white;
@@ -69,4 +69,9 @@
     color: white;
     text-decoration: none;
     border-bottom: 1px solid white;
+}
+@media (max-width:992px){
+    #made, #madeby{
+        font-size: 2vw;
+    }
 }
