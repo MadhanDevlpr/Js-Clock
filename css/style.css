@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, aqua,aquamarine);
+}
+#mmddyy{    
+    font-size: 5vw;
+    font-family: 'Fira Code', monospace;
+    padding-bottom: 100px;
+    color: teal;
+    animation-name: fadeup;
+    animation-duration: 1s;
+}
+#clock{
+    font-size: 1.4rem;
+    font-family: monospace;
+    color: teal;
+}
+#made{
+    position: absolute;
+    right: 2.5%;
+    bottom: 2.5%;
+    font-family: 'Fira Code', monospace;
+    font-weight: 900;
+    color: teal;
+    background: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#madeby{
+    position: absolute;
+    right: 2.5%;
+    bottom: 10%;
+    font-family: 'Fira Code', monospace;
+    font-weight: 900;
+    color: teal;
+    background: white;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#madeby a{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
