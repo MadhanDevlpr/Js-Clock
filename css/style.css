@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+    overflow: hidden;
+}
+*::selection{
+    background: white;
+    color: black;
+    border-radius: 10%;
 }
 .hero{
     width: 100%;
@@ -11,52 +16,57 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom right, aqua,aquamarine);
+    background: linear-gradient(to bottom right, #333, #161616);
 }
 #mmddyy{    
-    font-size: 5vw;
+    font-size: 11.5vw;
+    font-weight: lighter;
     font-family: 'Fira Code', monospace;
     padding-bottom: 100px;
-    color: teal;
+    color: white;
     animation-name: fadeup;
     animation-duration: 1s;
 }
 #clock{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-family: monospace;
-    color: teal;
+    color: white;
 }
 #made{
     position: absolute;
     right: 2.5%;
     bottom: 2.5%;
+    font-size: 1rem;
     font-family: 'Fira Code', monospace;
     font-weight: 900;
-    color: teal;
-    background: white;
+    color: white;
+    background: transparent;
     padding: 10px;
     padding-bottom: 15px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+    border:2px solid white;
 }
 #madeby{
     position: absolute;
-    right: 2.5%;
+    left: 2.5%;
     bottom: 10%;
+    font-size: 1rem;
     font-family: 'Fira Code', monospace;
     font-weight: 900;
-    color: teal;
-    background: white;
+    color: white;
+    background: transparent;
     padding: 10px;
     padding-bottom: 15px;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    border:2px solid white;
 }
 #madeby a{
     font-family: 'Roboto Mono', monospace;
-    color: black;
+    color: white;
     text-decoration: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
