@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 *::selection{
     background: white;
     color: black;
+    text-shadow: 0 0 15px black;
     border-radius: 10%;
 }
 .hero{
@@ -16,26 +18,26 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background: radial-gradient( #333, black);
+    background: radial-gradient( #202020 , #161616);
 }
 #time{
     color: white;
-    font-family: 'Fira Code';
+    font-family: 'Roboto Mono';
     letter-spacing: .5vw;
     padding-bottom: 35px;
     border-bottom: 2px solid white;
 }
 #mmddyy{    
     font-size: 1.8rem;
-    font-family: monospace;
+    font-family: "Roboto Mono";
     color: white;
     padding: 40px;
-    
 }
 #clock{
-    font-size: 11.5vw;
+    font-size: 10vw;
     font-weight: lighter;
-    font-family: 'Fira Code', monospace;
+    font-family: "Azeret Mono";
+    word-spacing: 10px;
     padding-bottom: 100px;
     color: white;
     padding-left: 40px;
@@ -47,10 +49,9 @@
     right: 2.5%;
     bottom: 2.5%;
     font-size:1vw;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 900;
     color: white;
-    
     background: transparent;
     padding: 10px;
     padding-bottom: 15px;
@@ -64,7 +65,7 @@
     left: 2.5%;
     bottom: 12.5%;
     font-size:1vw;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 900;
     color: white;
     
@@ -85,16 +86,26 @@
 }
 @media (max-width:992px){
     #made, #madeby{
-        font-size: 2vw;
+        font-size: 1.5vw;
+    }
+    #mmddyy{
+        padding: 0px;
     }
 }
 @media (max-width:750px){
     #made, #madeby{
-        font-size: 4vw;
+        font-size: 2vw;
+    }
+    #clock{
+        font-size: 12.2vw;
     }
 }
 @media (max-width:500px){
     #made, #madeby{
         font-size: 3vw;
+    }
+    #clock{
+        white-space: nowrap;
+        padding-bottom: 15px;
     }
 }

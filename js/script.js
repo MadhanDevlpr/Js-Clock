@@ -5,7 +5,7 @@ function currentTime() {
     let ddd = date.getDate();
     let hh = date.getHours();
     let mm = date.getMinutes();
-    let ss = date.getSeconds();
+    let ss = date.getUTCSeconds();
     let session = "AM";
   
     if(hh == 0){
